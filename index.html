@@ -26,13 +26,14 @@
   <main class="container">
     <div class="row">
       <div class="col-6 text-center w-100">
-        <img src="http://placekitten.com/200/300"></img>
+        <img
+          src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FzdGxlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"></img>
       </div>
       <div class="col-6 text-center card">
-        <span>Health:<span id="health">100</span></span>
-        <button type="button" class="btn btn-primary" onclick="fortify()">Fortify walls</button>
-        <button type="button" class="btn btn-primary" onclick="oil()">Dump hot oil</button>
-        <button type="button" class="btn btn-primary" onclick="archer()">Archers</button>
+        <span>Defenses:<span id="health">100</span></span>
+        <button type="button" class="btn btn-primary" onclick="fortify()">Fortify Walls</button>
+        <button type="button" class="btn btn-primary" onclick="dump()">Dump Hot Oil</button>
+        <button type="button" class="btn btn-primary" onclick="shoot()">Archers</button>
       </div>
     </div>
 
@@ -42,9 +43,21 @@
 
 
   <footer class="container-fluid bg-secondary text-center">
-    <div class="row">
-      <div class="col text-info p-2">
-        <button type="button" class="btn btn-primary" onclick="punch()">Punch</button>
+    <div class="row justify-content-between">
+      <div class="col-4 text-info p-2">
+        <button type="button" class="btn btn-primary" onclick="treb()">Trebuchet</button>
+
+
+      </div>
+      <div class="col-4 text-info p-2">
+        <button type="button" class="btn btn-primary" onclick="ram()">Battering Ram</button>
+
+
+      </div>
+      <div class="col-4 text-info p-2">
+        <button type="button" class="btn btn-primary" onclick="elephant()">Elephants</button>
+
+
       </div>
     </div>
   </footer>
