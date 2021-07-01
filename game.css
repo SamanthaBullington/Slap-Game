@@ -7,3 +7,15 @@ body {
 main {
   flex-grow: 1;
 }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+  transition: 0.3s;
+  min-width: 25vw;
+  justify-content: space-around;
+  border: 1px solid;
+  margin: 0 0px;
+  color: whitesmoke;
+  background-color:rgba(36, 41, 56, 0.925);
+  text-align: center;
+}

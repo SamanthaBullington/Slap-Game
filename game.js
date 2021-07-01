@@ -8,10 +8,10 @@ const attack = {
 let health = 100
 
 function punch() {
-  health -= attack.pinch.damage
+  if (health != 0) {
+    health -= attack.pinch.damage
+    // } else (alert('he has died'))
 
-
-  console.log(health)
+    document.getElementById('health').innerText = health
+  }
 }
-
-punch()
